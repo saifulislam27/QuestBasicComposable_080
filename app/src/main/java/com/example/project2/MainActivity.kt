@@ -40,7 +40,11 @@ fun BasicCompose(jamal:Modifier = Modifier){
             .padding(top =50.dp)
             .background(Color(0xFFF2F0EB)),
         horizontalAlignment = Alignment.CenterHorizontally,
-        ){}
+        ){
+        Text(
+            text = "Login"
+        )
+    }
 }
 @Composable
 fun Greeting(name: String, modifier: Modifier = Modifier) {
