@@ -49,6 +49,9 @@ fun BasicCompose(jamal:Modifier = Modifier){
             color = Color(0xFF708090),
             fontWeight = FontWeight.Bold
         )
+        Text(
+            text = "Ini adalah halaman login"
+        )
     }
 }
 @Composable
