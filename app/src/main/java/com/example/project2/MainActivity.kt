@@ -64,6 +64,9 @@ fun BasicCompose(jamal:Modifier = Modifier){
                 .size(300.dp)
                 .padding(top = 16.dp)
         )
+        Text(
+            text = "Nama",
+        )
     }
 }
 @Composable
