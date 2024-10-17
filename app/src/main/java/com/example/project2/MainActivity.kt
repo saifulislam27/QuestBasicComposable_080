@@ -50,7 +50,9 @@ fun BasicCompose(jamal:Modifier = Modifier){
             fontWeight = FontWeight.Bold
         )
         Text(
-            text = "Ini adalah halaman login"
+            text = "Ini adalah halaman login",
+            fontSize = 16.sp,
+            color = Color(0xFF828382)
         )
     }
 }
