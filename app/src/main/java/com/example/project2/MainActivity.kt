@@ -81,6 +81,7 @@ fun BasicCompose(jamal:Modifier = Modifier){
             text = "20210140080",
             fontSize = 40.sp,
             color = Color(0xFF2E3135),
+            fontWeight = FontWeight.Bold,
         )
     }
 }
