@@ -71,6 +71,9 @@ fun BasicCompose(jamal:Modifier = Modifier){
             fontWeight = FontWeight.Medium,
             modifier = Modifier.padding(top = 20.dp)
         )
+        Text(
+            text = "Saiful Islam"
+        )
     }
 }
 @Composable
