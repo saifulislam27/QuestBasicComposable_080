@@ -87,6 +87,9 @@ fun BasicCompose(jamal:Modifier = Modifier){
         Image(
             painter = painterResource(id = R.drawable.image3),
             contentDescription = "Foto saya",
+            modifier = Modifier
+                .size(350.dp)
+                .padding(top = 16.dp)
         )
     }
 }
