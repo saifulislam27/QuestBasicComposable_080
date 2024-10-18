@@ -84,6 +84,10 @@ fun BasicCompose(jamal:Modifier = Modifier){
             fontWeight = FontWeight.Bold,
             modifier = Modifier.padding(top = 8.dp)
         )
+        Image(
+            painter = painterResource(id = R.drawable.image3),
+            contentDescription = "Foto saya",
+        )
     }
 }
 @Composable
