@@ -72,7 +72,9 @@ fun BasicCompose(jamal:Modifier = Modifier){
             modifier = Modifier.padding(top = 20.dp)
         )
         Text(
-            text = "Saiful Islam"
+            text = "Saiful Islam",
+            fontSize = 24.sp,
+
         )
     }
 }
