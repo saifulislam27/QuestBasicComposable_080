@@ -66,6 +66,8 @@ fun BasicCompose(jamal:Modifier = Modifier){
         )
         Text(
             text = "Nama",
+            fontSize = 20.sp,
+            color = Color(0xFF708090),
         )
     }
 }
