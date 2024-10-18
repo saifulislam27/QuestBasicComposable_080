@@ -68,6 +68,8 @@ fun BasicCompose(jamal:Modifier = Modifier){
             text = "Nama",
             fontSize = 20.sp,
             color = Color(0xFF708090),
+            fontWeight = FontWeight.Medium,
+            modifier = Modifier.padding(top = 20.dp)
         )
     }
 }
