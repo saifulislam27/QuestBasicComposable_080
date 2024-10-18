@@ -74,6 +74,7 @@ fun BasicCompose(jamal:Modifier = Modifier){
         Text(
             text = "Saiful Islam",
             fontSize = 24.sp,
+            color = Color(0xFF828382),
 
         )
     }
