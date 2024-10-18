@@ -82,6 +82,7 @@ fun BasicCompose(jamal:Modifier = Modifier){
             fontSize = 40.sp,
             color = Color(0xFF2E3135),
             fontWeight = FontWeight.Bold,
+            modifier = Modifier.padding(top = 8.dp)
         )
     }
 }
